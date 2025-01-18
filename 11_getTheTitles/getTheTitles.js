@@ -12,6 +12,5 @@ const books = [
 const getTheTitles = function(array) {
     return array.map(item => item.title);
 };
-console.log(getTheTitles(books));
 // Do not edit below this line
 module.exports = getTheTitles;
